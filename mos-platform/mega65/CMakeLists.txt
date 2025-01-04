@@ -28,3 +28,7 @@ add_platform_library(mega65-c
   kernal.S
 )
 target_include_directories(mega65-c BEFORE PUBLIC .)
+
+target_compile_options(mega65-unmap-basic PRIVATE
+    -mcpu=mos45gs02
+)
