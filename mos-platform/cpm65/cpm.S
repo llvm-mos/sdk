@@ -77,7 +77,7 @@ cpmentry cpm_parse_filename_i,        43, __cpmexiter_ptrornull
 biosentry cpm_bios_const,             0
 biosentry cpm_bios_conin,             1
 biosentry cpm_bios_conout,            2
-biosentry cpm_bios_seldsk_i,          3
+biosentry cpm_bios_seldsk_i,          3, __cpmexiter_ptrornull
 biosentry cpm_bios_setsec_i,          4
 biosentry cpm_bios_setdma_i,          5
 biosentry cpm_bios_read,              6, __cpmexiter_errno
